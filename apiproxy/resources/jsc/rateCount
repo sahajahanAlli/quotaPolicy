@@ -1,0 +1,12 @@
+ //var count = context.getVariable("ratelimit.QuotaTestPol.available.count")
+ 
+// if(count < 2){
+//     context.setVariable("rateCondition",true)
+// }
+
+var verbs=context.getVariable("request.verb");
+context.setVariable("messageWeight","2");
+
+if(verbs == 'POST'){
+ context.setVariable("messageWeight","1");   
+}

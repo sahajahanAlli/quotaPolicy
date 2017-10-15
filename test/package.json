@@ -1,0 +1,8 @@
+{
+    "name": "quotapolicy",
+    "version": "1.0.0",
+    "description": "my test data",
+    "dependencies": {
+        "apickli": "latest"
+    }
+}

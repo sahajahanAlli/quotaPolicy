@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RaiseFault async="false" continueOnError="false" enabled="true" name="Raise_Fault_Count">
+    <DisplayName>Raise_Fault_Count</DisplayName>
+    <Properties/>
+    <FaultResponse>
+        <Set>
+            <Headers/>
+            <Payload contentType="application/json">{  "code":"429.01.003",            "description":"To many request comiing into server. please try later"            }</Payload>
+            <StatusCode>429</StatusCode>
+            <ReasonPhrase>Too many request Error</ReasonPhrase>
+        </Set>
+    </FaultResponse>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>

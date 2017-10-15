@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="quotaTestPolicy">
+    <Basepaths>/quotatest</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1505583245635</CreatedAt>
+    <CreatedBy>seikhsahajahanalli89@yahoo.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>quotaTestPolicy</DisplayName>
+    <LastModifiedAt>1505592079692</LastModifiedAt>
+    <LastModifiedBy>seikhsahajahanalli89@yahoo.com</LastModifiedBy>
+    <Policies>
+        <Policy>JavaScript-1</Policy>
+        <Policy>QuotaTestPol</Policy>
+        <Policy>Raise_Fault_Count</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://rateCount</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>

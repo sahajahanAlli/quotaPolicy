@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Quota async="false" continueOnError="false" enabled="true" name="QuotaTestPol" type="calendar">
+    <DisplayName>QuotaTestPol</DisplayName>
+    <Properties/>
+    <Interval>1</Interval>
+    <TimeUnit>minute</TimeUnit>
+    <StartTime>2017-9-16 19:10:30</StartTime>
+    <Distributed>true</Distributed>
+    <Synchronous>true</Synchronous>
+    <Allow>
+        <Class ref="request.queryparam.app1key">
+            <Allow class="public" count="4"/>
+            <Allow class="private" count="3"/>
+        </Class>
+    </Allow>
+</Quota>
