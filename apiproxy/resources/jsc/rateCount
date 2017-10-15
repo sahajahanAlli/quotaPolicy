@@ -1,8 +1,8 @@
- //var count = context.getVariable("ratelimit.QuotaTestPol.available.count")
+ var count = context.getVariable("ratelimit.QuotaTestPol.available.count")
  
-// if(count < 2){
-//     context.setVariable("rateCondition",true)
-// }
+ if(count < 2){
+     context.setVariable("rateCondition",true)
+ }
 
 var verbs=context.getVariable("request.verb");
 context.setVariable("messageWeight","2");

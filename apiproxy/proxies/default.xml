@@ -12,7 +12,7 @@
             </Step>
             <Step>
                 <Name>Raise_Fault_Count</Name>
-                <Condition>(rateCondition =true )</Condition>
+                <Condition>(rateCondition = true )</Condition>
             </Step>
         </Request>
         <Response/>
@@ -23,7 +23,7 @@
     </PostFlow>
     <Flows/>
     <HTTPProxyConnection>
-        <BasePath>/quotatest</BasePath>
+        <BasePath>/quotatest1</BasePath>
         <Properties/>
         <VirtualHost>default</VirtualHost>
         <VirtualHost>secure</VirtualHost>
