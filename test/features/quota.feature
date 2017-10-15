@@ -7,3 +7,46 @@ Feature:
     Then response code should be 200
     And response body path $.firstName should be John
     And response body path $.lastName should be Doe
+
+  Scenario: checking values of query parameters passed in url in get request
+    When I GET /quotatest?app1key=public
+    Then response code should be 200
+    And response body path $.firstName should be John
+    And response body path $.lastName should be Doe
+
+     Scenario: checking values of query parameters passed in url in get request
+    When I GET /quotatest?app1key=public
+    Then response code should be 200
+    And response body path $.firstName should be John
+    And response body path $.lastName should be Doe
+
+
+     Scenario: checking values of query parameters passed in url in get request
+    When I GET /quotatest?app1key=public
+    Then response code should be 200
+    And response body path $.firstName should be John
+    And response body path $.lastName should be Doe
+
+     Scenario: checking values of query parameters passed in url in get request
+    When I GET /quotatest?app1key=public
+    Then response code should be 200
+    And response body path $.firstName should be John
+    And response body path $.lastName should be Doe
+
+     Scenario: checking values of query parameters passed in url in get request
+    When I GET /quotatest?app1key=public
+    Then response code should be 200
+    And response body path $.firstName should be John
+    And response body path $.lastName should be Doe
+
+     Scenario: checking values of query parameters passed in url in get request
+    When I GET /quotatest?app1key=public
+    Then response code should be 200
+    And response body path $.firstName should be John
+    And response body path $.lastName should be Doe
+
+     Scenario: checking values of query parameters passed in url in get request
+    When I GET /quotatest?app1key=public
+    Then response code should be 200
+    And response body path $.firstName should be John
+    And response body path $.lastName should be Doe
